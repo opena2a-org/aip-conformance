@@ -1,3 +1,23 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+verifiers/go/verify
+verifiers/go/go
+scripts/generate-fixtures/generate-fixtures
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+
 # Editor / OS
 .DS_Store
 .idea/

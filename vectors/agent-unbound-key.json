@@ -1,0 +1,13 @@
+{
+  "$comment": "An Ed25519 keypair NOT bound to the conformance agentDid — used by the challenge-response-wrong-key fixture to exercise the UNTRUSTED_KEY rejection path: the signature is mathematically valid, but the publicKey in the response does not match the agentDid's bound key per the verifier state. Seed and public key are RFC 8032 §7.1 Test 3. TEST-ONLY; the seed is publicly known.",
+  "role": "agent-unbound-key",
+  "algorithm": "Ed25519",
+  "provenance": {
+    "source": "RFC 8032 §7.1 Test 3",
+    "ref": "https://datatracker.ietf.org/doc/html/rfc8032#section-7.1",
+    "purpose": "deterministic, reproducible reference vector for the wrong-key (unbound) negative fixture"
+  },
+  "seedHex": "c5aa8df43f9f837bedb7442f31dcb7b166d38535076f094b85ce3a2e0b4458f7",
+  "publicKeyHex": "fc51cd8e6218a1a38da47ed00230f0580816ed13ba3303ac5deb911548908025",
+  "keyId": "did:opena2a:agent:unbound#key-1"
+}
